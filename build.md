@@ -25,7 +25,7 @@ make install
 
 #extension build deb
 sudo apt-get install php5-dev dh-make-php fakeroot xsltproc
-sudo dh-make-pecl --depends libv8-dev --build-depends libv8-dev —-maintainer 'Yury Kozyrev<ykmship@yandex-team.ru>' v8js-0.1.3
+sudo dh-make-pecl --depends libv8-dev --build-depends libv8-dev —-maintainer 'Yury Kozyrev <email@email.com>' v8js-0.1.3
 # echo 'debian/v8js.ini etc/php5/mods-available' | tee -a debian/php5-v8js.install
 
 #to .bashrc 
@@ -40,7 +40,7 @@ sudo DEB_BUILD_OPTIONS=nocheck debuild
 cd ../
 dupload
 
-echo "deb http://trusty.dist.somehost.ru/yandex-trusty unstable/amd64/" | sudo tee -a /etc/apt/sources.list
+echo "deb http://trusty.dist.somehost.ru/some-trusty unstable/amd64/" | sudo tee -a /etc/apt/sources.list
 
 curl dist.somehost.ru/REPO.asc | sudo apt-key add -
 ```
