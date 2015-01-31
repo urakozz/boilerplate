@@ -1,4 +1,4 @@
-
+```
 mkdir .chef
 echo "cookbook_path [ 'provision/cookbooks' ]" > .chef/knife.rb
 
@@ -26,3 +26,4 @@ CREATE DATABASE vagrant
 REVOKE ALL ON schema public FROM public;
 GRANT ALL ON schema public TO vagrant;
 ALTER USER postgres WITH PASSWORD 'postgres';
+```
