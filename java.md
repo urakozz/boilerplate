@@ -33,3 +33,8 @@ pom.xml
 compile
 
 ```mvn compile exec:java -Dexec.mainClass=App ```
+
+```
+/usr/libexec/java_home -V
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home
+```
