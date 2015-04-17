@@ -44,3 +44,5 @@ echo "deb http://trusty.dist.somehost.ru/some-trusty unstable/amd64/" | sudo tee
 
 curl dist.somehost.ru/REPO.asc | sudo apt-key add -
 ```
+
+https://wiki.debian.org/IntroDebianPackaging
