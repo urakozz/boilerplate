@@ -43,6 +43,16 @@ dupload
 echo "deb http://trusty.dist.somehost.ru/some-trusty unstable/amd64/" | sudo tee -a /etc/apt/sources.list
 
 curl dist.somehost.ru/REPO.asc | sudo apt-key add -
+
+#from Makefile
+fakeroot debian/rules clean
+fakeroot debian/rules build
+fakeroot debian/rules binary
+# http://santi-bassett.blogspot.se/2014/07/how-to-create-debian-package.html
+
+#From git
+http://lpenz.org/articles/debgit/
+
 ```
 
 https://wiki.debian.org/IntroDebianPackaging
