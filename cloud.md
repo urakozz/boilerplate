@@ -23,6 +23,8 @@ rhc app start -a php
 ## Travis
 - popular swiss knife
 - 150/month
+- openshift: 4 min build + 5-10min wait
+- randomly fails on node-sass build
 
 ## Circle CI 
 - superfast (cache, containers)
@@ -30,6 +32,7 @@ rhc app start -a php
 - 50/month/container
 - private is free?..
 - most awesome for now
+- openshift: 3 min build + 0sec wait
 
 ## Codeship
 - not bad
