@@ -26,6 +26,7 @@ rhc app start -a php
 
 ## Circle CI 
 - superfast (cache, containers)
+- out of box config with several languages
 - 50/month/container
 - private is free?..
 - most awesome for now
