@@ -9,6 +9,7 @@ ctl_app start
 #OR
 rhc app stop -a php
 rhc app start -a php
+rhc cartridge add cron-1.4 -a php
 ```
 - old php
 - 3 apps
