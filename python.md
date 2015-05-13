@@ -14,3 +14,6 @@ http://docs.datastax.com/en/cassandra/2.0/cassandra/install/installDeb_t.html
 
 
 http://planetcassandra.org/getting-started-with-apache-cassandra-and-node-js/
+
+server, flask, gunicorn
+https://realpython.com/blog/python/kickstarting-flask-on-ubuntu-setup-and-deployment/
